@@ -104,6 +104,7 @@ void convert() {
   if (call.toLowerCase() == 'y') {
     convert();
   }
+  print('Спасибо!');
 }
 
 bool checkChoice(String choice) {
