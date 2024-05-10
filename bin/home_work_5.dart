@@ -103,8 +103,10 @@ void convert() {
   String call = stdin.readLineSync() ?? '';
   if (call.toLowerCase() == 'y') {
     convert();
+  } else {
+    print('Спасибо!');
   }
-  print('Спасибо!');
+  
 }
 
 bool checkChoice(String choice) {
